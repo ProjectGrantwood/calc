@@ -2,8 +2,8 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import * as math from "mathjs"
 import "katex/dist/katex.min.css"
 import katex from "katex"
-import githubIcon from "../assets/433-github.svg";
-import linkedinIcon from "../assets/459-linkedin2.svg";
+import githubIcon from "./assets/433-github.svg";
+import linkedinIcon from "./assets/459-linkedin2.svg";
 
 // Components related to self-advertisement :)
 
