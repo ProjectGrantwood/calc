@@ -1,7 +1,9 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
-import * as math from "mathjs";
-import "katex/dist/katex.min.css";
+import { useState, useEffect, useRef, useCallback } from 'react'
+import * as math from "mathjs"
+import "katex/dist/katex.min.css"
 import katex from "katex"
+import githubIcon from "../assets/433-github.svg";
+import linkedinIcon from "../assets/459-linkedin2.svg";
 
 // Components related to self-advertisement :)
 
@@ -202,8 +204,8 @@ function Calculator() {
             <div className="col-span-1 row-span-1"></div>
             <div className="col-span-1 row-span-1"></div>
             <div className="grid grid-cols-2 grid-rows-1 col-span-1 row-span-1 align-middle mt-4 md:mt-10 text-center">
-                <IconLink imagePath="src/assets/433-github.svg" link="https://github.com/ProjectGrantwood" />
-                <IconLink imagePath="src/assets/459-linkedin2.svg" link="https://www.linkedin.com/in/jptphiladelphia/" />
+                <IconLink imagePath={ githubIcon } link="https://github.com/ProjectGrantwood" />
+                <IconLink imagePath={ linkedinIcon } link="https://www.linkedin.com/in/jptphiladelphia/" />
             </div>
             <div className="col-span-1 row-span-1"></div>
             </div>
