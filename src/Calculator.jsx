@@ -15,7 +15,7 @@ const IconLink = ({ imagePath, link }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <img className="invert scale-200 md:scale-200" src={imagePath}></img>
+      <img className="invert scale-200 md:scale-200 p-3" src={imagePath}></img>
     </a>
   );
 };
